@@ -1,0 +1,22 @@
+
+---
+
+**EndpointFluxMonitor**  
+**Description:**  
+Watches API endpoints for flux in latency, response code trends, and irregular degradation over time.
+
+```markdown
+# EndpointFluxMonitor - Latency Drift & Availability Watcher
+
+EndpointFluxMonitor continuously scans APIs and flags shifting behavior in response quality and timing.
+
+## Features
+- Real-time endpoint monitoring  
+- Drift / fluctuation detection  
+- Output to CSV / JSON
+
+## Usage
+```bash
+git clone https://github.com/your-username/EndpointFluxMonitor.git
+cd EndpointFluxMonitor
+python monitor.py
